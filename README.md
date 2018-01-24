@@ -38,3 +38,6 @@ private String secondName;
 @ExcelField(index=2)
 private Integer age;
 }
+
+使用：
+List<Student> students = Excel.read(inputStream,Student.class)
